@@ -6,10 +6,6 @@
 
 ╭────────────────────────────────────────────────────────╮
 │ OS                                   Arch Linux x86_64 │
-│ Kernel                             Linux 7.3.3-arch1-1 │
-│ Packages                                 1409 (pacman) │
-│ Shell                                             fish │
-│ Desktop Environment                                 i3 │
 │ Window Manager                                i3 (X11) │
 ├────────────────────────────────────────────────────────┤
 │ Host                        20L6S4KD00 (ThinkPad T480) │
