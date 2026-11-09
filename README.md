@@ -12,6 +12,6 @@
 <h2 align="center">Yang sedang kukerjakan</h2>
 
 <p align="center">
-  ReHub: proyek kelas PemWeb<br>
-  lokaloka: proyek kelas IMK
+  <a href="https://github.com/bagasadh/ReHub">ReHub</a>: proyek kelas PemWeb<br>
+  <a href="https://github.com/bagasadh/lokaloka">lokaloka</a>: proyek kelas IMK
 </p>
