@@ -2,6 +2,14 @@
 
 <table>
 <tr>
+<td colspan="2">
+<pre>
+┌ bagasadh
+└› fastfetch
+</pre>
+</td>
+</tr>
+<tr>
 <td valign="middle"><img src="logo.png" width="150" alt="GitHub"></td>
 <td>
 <pre>
