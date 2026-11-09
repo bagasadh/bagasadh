@@ -1,9 +1,9 @@
 <h1 align="center">Hi, aku Bagas</h1>
 
 <p align="center">
-  <img src="card-prompt-box2.svg" width="560"><br>
-  <img src="card-box2.svg" width="560"><br>
-  <a href="https://www.instagram.com/bgasadyksa"><img src="card-contact-box2.svg" width="560"></a>
+  <img src="card-prompt-box3.svg" width="560"><br>
+  <img src="card-box3.svg" width="560"><br>
+  <a href="https://www.instagram.com/bgasadyksa"><img src="card-contact-box3.svg" width="560"></a>
 </p>
 
 <p align="center">Mahasiswa Teknik Informatika Universitas Gunadarma (semester 5).</p>
