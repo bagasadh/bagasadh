@@ -1,19 +1,10 @@
 # Hi, aku Bagas
 
-<table>
-<tr>
-<td colspan="2">
-<pre>
+```
 ┌ bagasadh
 └› fastfetch
-</pre>
-</td>
-</tr>
-<tr>
-<td valign="middle"><img src="logo.png" width="150" alt="GitHub"></td>
-<td>
-<pre>
-┌────────────────────────────────────────────────────────┐
+
+╭────────────────────────────────────────────────────────╮
 │ OS                                      CachyOS x86_64 │
 │ Kernel                           Linux 7.3.3-1-cachyos │
 │ Packages                                 1409 (pacman) │
@@ -30,11 +21,8 @@
 │ Disk (/)                            226.94 GiB - btrfs │
 ├────────────────────────────────────────────────────────┤
 │ Student                          Universitas Gunadarma │
-└────────────────────────────────────────────────────────┘
-</pre>
-</td>
-</tr>
-</table>
+╰────────────────────────────────────────────────────────╯
+```
 
 Mahasiswa Teknik Informatika Universitas Gunadarma (semester 5).
 
