@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="card-prompt.svg" width="560"><br>
-  <img src="card-1.svg" width="560"><br>
+  <img src="card-info.svg" width="560"><br>
   <a href="https://www.instagram.com/bgasadyksa"><img src="card-3.svg" width="560"></a>
 </p>
 
