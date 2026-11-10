@@ -82,6 +82,7 @@ for cx, data in ((140.5, cur), (419.5, best)):
     s += """<text x="%s" y="146" text-anchor="middle">days</text>""" % cx
     s += """<text x="%s" y="164" text-anchor="middle" font-size="12" fill="#8b949e">%s</text>""" % (cx, rng(data[1], data[2]))
 s += "</g></svg>"
+os.makedirs("assets", exist_ok=True)
 open("assets/streak-card.svg", "w", encoding="utf-8").write(s)
 print("current", cur[0], "longest", best[0])
 
