@@ -11,14 +11,19 @@ def gql(q, v):
     )
     return json.load(urllib.request.urlopen(req))["data"]
 
-now = dt.datetime.utcnow()
+# Zona waktu WIB (UTC+7)
+WIB = dt.timezone(dt.timedelta(hours=7))
+now_utc = dt.datetime.now(dt.timezone.utc)
+now_wib = now_utc.astimezone(WIB)
+now = now_wib.replace(tzinfo=None)
+
 created = gql("query($u:String!){user(login:$u){createdAt}}", {"u": USER})["user"]["createdAt"][:4]
 Q = "query($u:String!,$f:DateTime!,$t:DateTime!){user(login:$u){contributionsCollection(from:$f,to:$t){contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}"
 
 days = {}
 for y in range(int(created), now.year + 1):
     f = "%d-01-01T00:00:00Z" % y
-    t = min(dt.datetime(y, 12, 31, 23, 59, 59), now).strftime("%Y-%m-%dT%H:%M:%SZ")
+    t = min(dt.datetime(y, 12, 31, 23, 59, 59, tzinfo=dt.timezone.utc), now_utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     cal = gql(Q, {"u": USER, "f": f, "t": t})["user"]["contributionsCollection"]["contributionCalendar"]
     for w in cal["weeks"]:
         for d in w["contributionDays"]:
