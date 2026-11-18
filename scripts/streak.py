@@ -23,7 +23,7 @@ Q = "query($u:String!,$f:DateTime!,$t:DateTime!){user(login:$u){contributionsCol
 days = {}
 for y in range(int(created), now.year + 1):
     f = "%d-01-01T00:00:00Z" % y
-    t = min(dt.datetime(y, 12, 31, 23, 59, 59, tzinfo=dt.timezone.utc), now_utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    t = "%d-12-31T23:59:59Z" % y
     cal = gql(Q, {"u": USER, "f": f, "t": t})["user"]["contributionsCollection"]["contributionCalendar"]
     for w in cal["weeks"]:
         for d in w["contributionDays"]:
