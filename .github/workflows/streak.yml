@@ -1,7 +1,7 @@
 name: Update streak card
 on:
   schedule:
-    - cron: "55 15 * * *"
+    - cron: "20 16 * * *"
     - cron: "5 17 * * *"
   workflow_dispatch:
 permissions:
