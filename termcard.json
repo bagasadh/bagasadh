@@ -1,0 +1,58 @@
+{
+  "theme": "dashed-dark",
+  "width": 560,
+  "radius": 6,
+  "cards": [
+    {
+      "type": "typing",
+      "output": "typing.svg",
+      "prompt_top": "┌ bagasadh",
+      "prompt_bottom": "└›",
+      "words": ["Hi", "fastfetch"],
+      "duration": 8,
+      "alt": "bagasadh"
+    },
+    {
+      "type": "info",
+      "output": "info.svg",
+      "alt": "Profile info",
+      "sections": [
+        [
+          ["Host", "Muhammad Bagas Adhyaksa"],
+          ["Univ", "Gunadarma IT 24"]
+        ],
+        [
+          ["OS", "Arch Linux x86_64"],
+          ["Window Manager", "i3 (X11)"],
+          ["Device", "T480 · i5-8th · UHD 620"]
+        ]
+      ]
+    },
+    {
+      "type": "streak",
+      "output": "streak-card.svg",
+      "user": "bagasadh",
+      "timezone_offset": 7,
+      "title": "Streak",
+      "current_label": "Current streak",
+      "longest_label": "Longest streak",
+      "alt": "GitHub streak"
+    },
+    {
+      "type": "link",
+      "output": "contact-email.svg",
+      "label": "Email",
+      "value": "mbagasadhyaksa12@gmail.com",
+      "url": "mailto:mbagasadhyaksa12@gmail.com",
+      "alt": "Email"
+    },
+    {
+      "type": "link",
+      "output": "contact-ig.svg",
+      "label": "Instagram",
+      "value": "@bgasadyksa",
+      "url": "https://www.instagram.com/bgasadyksa",
+      "alt": "Instagram"
+    }
+  ]
+}
