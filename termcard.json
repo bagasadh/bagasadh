@@ -1,5 +1,9 @@
 {
-  "theme": "dashed-dark",
+  "$schema": "https://raw.githubusercontent.com/bagasadh/termcard/main/termcard.schema.json",
+  "theme": {
+    "dark": "dashed-dark",
+    "light": "dashed-light"
+  },
   "width": 560,
   "radius": 6,
   "cards": [

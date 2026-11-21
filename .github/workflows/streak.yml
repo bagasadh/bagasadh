@@ -6,6 +6,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: termcard-${{ github.ref }}
+  cancel-in-progress: false
 jobs:
   streak:
     runs-on: ubuntu-latest
