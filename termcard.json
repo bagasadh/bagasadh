@@ -4,6 +4,14 @@
     "dark": "dashed-dark",
     "light": "dashed-light"
   },
+  "style": {
+    "dark": {
+      "muted": "#ffffff"
+    },
+    "light": {
+      "muted": "#1f2328"
+    }
+  },
   "width": 560,
   "radius": 6,
   "cards": [
