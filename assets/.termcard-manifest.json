@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "files": [
+    "contact-email-dark.svg",
+    "contact-email-light.svg",
+    "contact-ig-dark.svg",
+    "contact-ig-light.svg",
+    "info-dark.svg",
+    "info-light.svg",
+    "streak-card-dark.svg",
+    "streak-card-light.svg",
+    "typing-dark.svg",
+    "typing-light.svg"
+  ]
+}
